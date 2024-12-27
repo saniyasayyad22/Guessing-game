@@ -7,15 +7,15 @@ while(true){
         console.log("quit the game");
         break;
     }
-   if(guess==n){
-        console.log("Congrats!Your guess is correct");
+    if(guess==n){
+        guess=prompt("Congrats!Your guess is correct");
         break;
       }
-   else if(guess<n){
+    else if(guess<n){
         guess= prompt(" Your guess was too small, please try again");
        
       }
-   else{
+    else{
         guess= prompt(" Your guess was too large, please try again");
     }
     }
